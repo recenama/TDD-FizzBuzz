@@ -7,4 +7,7 @@ describe('FizzBuzz', () => {
     it('should return Buzz if value is 5', () => {
         expect(fizzbuzz(5)).toBe('Buzz')
     })
+    it('should return FizzBuzz if value is 15', () => {
+        expect(fizzbuzz(15)).toBe('FizzBuzz')
+    })
 })
