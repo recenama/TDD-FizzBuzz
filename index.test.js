@@ -10,4 +10,8 @@ describe('FizzBuzz', () => {
     it('should return FizzBuzz if value is 15', () => {
         expect(fizzbuzz(15)).toBe('FizzBuzz')
     })
+    it('should return the same value if is diferent of 3, 5 and 15', () => {
+        expect(fizzbuzz(1)).toBe(1)
+    })
+
 })
