@@ -13,5 +13,7 @@ describe('FizzBuzz', () => {
     it('should return the same value if is diferent of 3, 5 and 15', () => {
         expect(fizzbuzz(1)).toBe(1)
     })
-
+    it('should return Fizz if value is multiple of 3', () => {
+        expect(fizzbuzz(6)).toBe('Fizz')
+    })
 })
